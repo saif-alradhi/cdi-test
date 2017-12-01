@@ -4,7 +4,7 @@ FROM node:7.8.0
 ENV NPM_CONFIG_LOGLEVEL warn
 
 # In your Dockerfile.
-COPY .
+COPY . .
 
 RUN npm run build --production
 # In your Dockerfile.
